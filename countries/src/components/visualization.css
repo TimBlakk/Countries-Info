@@ -1,0 +1,87 @@
+body {
+    background-image: url(world\ map.jpg);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: rgba(0, 16, 238, 0.911);
+    font-weight: bolder;
+    text-shadow: -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+   -1px  1px 0 white,
+    1px  1px 0 white; ;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,
+   -1px  1px 0 white,
+    1px  1px 0 white; ;
+    width: fit-content;
+
+}
+
+.canvas-container {
+    position: relative;
+    height: 700px;
+    margin-top: 20px;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 2%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: rgba(0, 16, 238, 0.911);
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    border-radius: 5%;
+}
+
+.text-center2 {
+    color: rgba(0, 16, 238, 0.911);
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    border-radius: 5%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.text-center3 {
+    color: rgba(0, 16, 238, 0.911);
+    font-weight: bold;
+    background-color: rgb(255, 254, 254);
+    width: 8%;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    text-align: left;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    font-size: large;
+    margin-right: 20px;
+
+}
+
+.text-center3:hover {
+    background: linear-gradient(to right, #f8f8f8, #fafafa);
+    color: rgb(6, 175, 15);
+    cursor: pointer;
+    border-radius: 8%;
+    transition: background 0.3s;
+}
+
+.form-control{
+    cursor: pointer;
+}
