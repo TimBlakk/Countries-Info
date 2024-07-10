@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data Visualization</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="visualization.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Country Data Visualization</h1>
+       <a href="../HomePage/index.html"> <h1 class="text-center3">Home Page</h1> </a>
+        <div class="form-group">
+            <label for="countrySelect">Select a Country:</label>
+            <select class="form-control" id="countrySelect"></select>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2 class="text-center">GDP</h2>
+                <canvas id="gdpChart"></canvas>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center2">Population Growth</h2>
+                <canvas id="populationChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="visualization.js"></script>
+</body>
+</html>

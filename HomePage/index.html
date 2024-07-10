@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries Information</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center my-3">
+                <h1 class="animate__animated animate__fadeInDown">World Countries Information</h1>
+                <input type="text" id="searchInput" placeholder="Search for a country..." class="form-control">
+                <div class="navbar">
+                    <div class="filter-sort">
+                        <select id="filterRegion" class="form-control">
+                            <option value="">Filter by Continent</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Americas">Americas</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Oceania">Oceania</option>
+                        </select>
+                        <select id="sortOption" class="form-control">
+                            <option value="">Sort by</option>
+                            <option value="population">Population</option>
+                            <option value="region">Region</option>
+                            <option value="language">Language</option>
+                            <option value="currency">Currency</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-primary" onclick="window.location.href='../QuizPage/quiz.html'">Country Quiz</button>
+                    <button class="btn btn-primary" onclick="window.location.href='../VisualizationPage/visualization.html'">View Data Visualization</button>
+                </div>
+            
+
+            </div>
+        </div>
+        <div class="row" id="countryList">
+            <!-- Dynamic content will be inserted here -->
+        </div>
+    </div>
+    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://unpkg.com/jquery-i18next/jquery-i18next.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

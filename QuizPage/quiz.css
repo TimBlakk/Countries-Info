@@ -1,0 +1,95 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-image: url(world\ map\ 1.jpg);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px; /* Added to position the content a bit lower */
+  font-size: larger;
+}
+
+#quiz-container {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  text-align: center;
+}
+
+
+#difficulty{
+  width: 14%;
+  font-size:large;
+  background-color: #fcfdff;
+  color: rgb(0, 0, 0);
+  border-radius: 8%;
+  cursor: pointer;
+}
+
+.start-quiz{
+  width: 100%;
+  font-size: xx-large;
+ 
+}
+
+.btn-primary {
+  font-size: xx-large;
+  border-radius: 2%;
+
+}
+
+
+.question p {
+  font-weight: bold;
+}
+
+select, button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+#result h2, #result h3 {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 5px 0;
+}
+
+#quiz {
+  text-align: left;
+}
+
+.backLink {
+  text-align: left;
+position: absolute;
+top: 5%;
+color: white;
+}
+
+.backLink:hover {
+  background: linear-gradient(to right, #f8f8f8, #fafafa);
+  color: black;
+  cursor: pointer;
+  border-radius: 8%;
+  transition: background 0.3s;
+}
+
